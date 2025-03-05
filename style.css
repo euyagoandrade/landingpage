@@ -84,11 +84,15 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   cursor: pointer;
-  animation: slide-out 0.6s;
+  animation: slide-out 0.4s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
-  animation: slide-in 0.6s forwards;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch span {
